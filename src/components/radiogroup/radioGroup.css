@@ -1,0 +1,10 @@
+.radio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    justify-content: start;
+    grid-gap: 10px;
+}
+
+.radio-option {
+    background-color: azure;
+}

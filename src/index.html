@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Wizard App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div id="app">
+        <section class="container">
+            <section class="header">
+                <span>
+                    <h2>The Wizard Question/Answer</h2>
+                </span>
+                <section class="count"><span id="ccount" class="current-count">0</span> / <span id="tcount" class="total-count">1</span></section>
+            </section>
+            <section id="main-container" class="main-container"></section>
+            <section class="footer">
+                <section class="actions" id="actions-buttons">
+                    <input type="button" id="previous" class="previous" value="Previous" disabled>
+                    <input type="button" id="next" class="previous" value="Next" disabled>
+                    <input type="button" id="submit" class="previous hidden" value="Submit">
+                </section>
+                <section>
+                    <span class="error-msg" id="error-msg">Something went Wrong!!</span>
+                </section>
+            </section>
+        </section>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+html, body {
+    height: 98%;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    border: 1px solid;
+    box-shadow: 1px 1px;
+    background-color: aliceblue;
+    text-align: center;
+    margin: auto;
+}
+
+.header {
+    min-height: 100px;
+    background-color: cadetblue;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.main-container {
+    min-height: 300px;
+    background-color: beige;
+    text-align: left;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.actions {
+    margin: 10px;
+}
+
+.count {
+    position: absolute;
+    right: 4%;
+    bottom: 11%;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 900;
+}
+
+input[type="button"] {
+    width: 15%;
+    height: 30px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[disabled="disabled"] {
+    background-color: grey;
+}
+
+.error-msg {
+    font-size: 18px;
+    font-weight: 700;
+    color: red;
+    display: none;
+}
+
+.title {
+    margin-bottom: 2%;
+}
+
+.hidden {
+    display: none;
+}
